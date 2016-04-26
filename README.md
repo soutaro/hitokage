@@ -69,7 +69,7 @@ require 'hitokage/replace_float_to_s'
 
 ### Incompatibility
 
-This library generates different string representation than `Float#to_s` for some values including `0.0`, `1e-10`, and `1e10`.
+This library generates different string representation than `Float#to_s` for some values including `1e-10` and `1e10`.
 However, the generated string can be converted to same float number using `to_f`.
 
 ## Development
