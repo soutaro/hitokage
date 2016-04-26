@@ -6,8 +6,8 @@ I recently found another floating point printing library, [google/double-convers
 
 This is an example using the google/double-conversion for `Float#to_s`.
 
-1. Guy L. Steel, Jr and Jon L. White, How to Print Floating-Point Acculately, PLDI '90, http://dl.acm.org/ft_gateway.cfm?id=93559
-2. Robert G. Burger and R. Kent Dybvig, Printing Floating-Point Numbers Quickly and Acculately, PLDI '96, http://www.cs.indiana.edu/~dyb/pubs/FP-Printing-PLDI96.pdf
+1. Guy L. Steel, Jr and Jon L. White, How to Print Floating-Point Accurately, PLDI '90, http://dl.acm.org/ft_gateway.cfm?id=93559
+2. Robert G. Burger and R. Kent Dybvig, Printing Floating-Point Numbers Quickly and Accurately, PLDI '96, http://www.cs.indiana.edu/~dyb/pubs/FP-Printing-PLDI96.pdf
 3. Florian Loitsch, Printing Floating-Point Numbers Quickly and Accurately with Integers, PLDI '10, http://www.cs.tufts.edu/~nr/cs257/archive/florian-loitsch/printf.pdf
 
 ### Benchmark
