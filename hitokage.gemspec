@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Soutaro Matsumoto"]
   spec.email         = ["matsumoto@soutaro.com"]
 
-  spec.summary       = %q{Yet another float to string conversion, a bit faster than Float#to_s}
-  spec.description   = %q{Yet another float to string conversion}
+  spec.summary       = %q{Faster Float#to_s}
+  spec.description   = %q{Faster float to string conversion.}
   spec.homepage      = "https://github.com/soutaro/hitokage"
   spec.license       = "MIT"
 
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.extensions = %w[ext/hitokage_ext/extconf.rb]
 
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
