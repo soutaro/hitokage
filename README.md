@@ -16,19 +16,19 @@ Grisu version is more than 4 times faster than DRAGON version, `Float#to_s`.
 
 ```
 $ ruby -I lib test/benchmark.rb
-🍉 Small float numbers, count=5000000, range=0.0...1.0
+🐉 Small float numbers, count=5000000, range=0.0...1.0
                            user     system      total        real
 Float#to_s             4.500000   0.010000   4.510000 (  4.527218)
 Float#hitokage_to_s    1.070000   0.000000   1.070000 (  1.083553)
 Verifying results...👍
 
-🍉 Usual float numbers, count=5000000, range=0.0...10000000.0
+🐉 Usual float numbers, count=5000000, range=0.0...10000000.0
                            user     system      total        real
 Float#to_s             4.650000   0.330000   4.980000 (  5.004367)
 Float#hitokage_to_s    1.210000   0.140000   1.350000 (  1.364027)
 Verifying results...👍
 
-🍉 Big floats numbers, count=5000000, range=1.0e+20...1.0e+30
+🐉 Big floats numbers, count=5000000, range=1.0e+20...1.0e+30
                            user     system      total        real
 Float#to_s             6.050000   0.240000   6.290000 (  6.338893)
 Float#hitokage_to_s    1.120000   0.000000   1.120000 (  1.132833)

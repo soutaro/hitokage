@@ -4,7 +4,7 @@ require "hitokage"
 def run(message, count, range)
   values = count.times.map { rand(range) }
 
-  puts "🍉 #{message}, count=#{count}, range=#{range}"
+  puts "🐉 #{message}, count=#{count}, range=#{range}"
   Benchmark.bm 20 do |r|
     r.report "Float#to_s" do
       values.each(&:to_s)
